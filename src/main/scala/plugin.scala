@@ -6,6 +6,7 @@ import Keys._
 import org.scalajs.sbtplugin.ScalaJSPlugin
 import org.scalajs.sbtplugin.ScalaJSPlugin.autoImport._
 
+// this does not adjust the content of the source map at all!
 object CopyJSPlugin extends AutoPlugin {
   override def requires = ScalaJSPlugin
 
